@@ -152,5 +152,5 @@ Feel free to use it for personal or commercial use.
 
 ## 🤝 Author & Contributions
 
-Created by **[Your Name]**.  
+Created by **Ambati Teja Sri Surya**.  
 PRs and contributions are welcome. Please fork and open a pull request.
