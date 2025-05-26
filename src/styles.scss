@@ -1,0 +1,36 @@
+@import '../node_modules/bulma/bulma.sass';
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+@import 'tippy.js/dist/tippy.css';
+
+html, body { height: 100%; }
+body { margin: 0; }
+
+.alt-gradient-button {
+    border: none;
+    background: linear-gradient(to right, rgb(66, 167, 66), rgb(54, 240, 79));
+    color: rgb(136, 91, 91);
+    font-weight: 600;
+    opacity: 0.92;
+
+    &:hover {
+        opacity: 1;
+        color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 0px 4px rgba(black, 0.05);
+    }
+
+    &:active {
+        opacity: 0.8;
+    }
+
+    &:focus {
+        color: rgb(255, 253, 253);
+        opacity: 1;
+    }
+
+    i.material-icons {
+        margin-right: 5px;
+        margin-left: -3px;
+    }
+}
